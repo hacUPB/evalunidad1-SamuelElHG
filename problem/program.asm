@@ -99,7 +99,7 @@
         D=M
         @InicioClear
         D=D-M
-        @FILL
+        @FILLV
         D;JGT
         //El fill está bueno
         @FILLH
