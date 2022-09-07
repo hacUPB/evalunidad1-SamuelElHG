@@ -69,14 +69,14 @@
 
         //
 
-        @KBD //keyboard
+   /*     @KBD //keyboard
         D=M
         //Clear
         @F
         D=D-M
         @FILLV
         D;JEQ
-
+*/
 
         @INICIO
         0;JMP
