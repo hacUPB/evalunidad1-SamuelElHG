@@ -43,7 +43,14 @@
         @67
         D=A
         @C
+        M=D//
+        //
+        @70
+        D=A
+        @F
         M=D
+        //
+
         @KBD //keyboard
         D=M
         //Clear
@@ -58,6 +65,19 @@
         D=D-M
         @FILLV
         D;JEQ
+
+
+        //
+
+        @KBD //keyboard
+        D=M
+        //Clear
+        @F
+        D=D-M
+        @FILLV
+        D;JEQ
+
+
         @INICIO
         0;JMP
 
@@ -85,7 +105,7 @@
 
 
 (FILLV)
-        @512 //valor a pintar
+        @256 //valor a pintar
         D=A
         @InicioClear
         A=M
